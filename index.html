@@ -3,27 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dyncher Digital Assets | Premium Domain Portföyü</title>
-    <meta name="description" content="Kuyumculuk, yazılım ve e-ticaret sektörlerine özel, yüksek SEO potansiyelli jenerik premium domain isimleri.">
+    <title id="page-title">Dyncher Digital Assets | Premium Domain Portföyü</title>
+    <meta id="page-desc" name="description" content="Kuyumculuk, yazılım ve e-ticaret sektörlerine özel, yüksek SEO potansiyelli jenerik premium domain isimleri.">
     <link rel="canonical" href="https://dyncher.net" />
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        /* Yumuşak bir kaydırma efekti için */
         html { scroll-behavior: smooth; }
+        /* Geçiş animasyonları için */
+        .lang-en, .lang-tr { transition: opacity 0.3s ease; }
     </style>
 </head>
-<body class="bg-gray-50 font-sans antialiased text-gray-800 flex flex-col min-h-screen">
+<body class="bg-gray-50 font-sans antialiased text-gray-800 flex flex-col min-h-screen relative">
+
+    <button id="langBtn" onclick="toggleLanguage()" class="absolute top-4 right-4 md:top-8 md:right-8 bg-slate-800/80 hover:bg-slate-700 text-slate-200 px-5 py-2.5 rounded-full text-sm font-bold border border-slate-600 transition-all backdrop-blur-md shadow-lg z-50 flex items-center gap-2">
+        <span>🇬🇧</span> EN
+    </button>
 
     <header class="bg-slate-900 text-white border-b border-slate-800">
-        <div class="max-w-6xl mx-auto px-6 py-20 text-center">
+        <div class="max-w-6xl mx-auto px-6 py-24 text-center">
             <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight mb-4">
                 <span class="text-blue-400">Dyncher</span> Digital Assets
             </h1>
             <p class="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto mb-8 leading-relaxed">
-                İşinizi dijital dünyada zirveye taşıyacak, akılda kalıcı, SEO dostu ve sektörel olarak premium seviye alan adlarımız yeni projelerini bekliyor.
+                <span class="lang-tr">İşinizi dijital dünyada zirveye taşıyacak, akılda kalıcı, SEO dostu ve sektörel olarak premium seviye alan adlarımız yeni projelerini bekliyor.</span>
+                <span class="lang-en hidden">Our catchy, SEO-friendly, and industry-premium domain names, which will take your business to the top in the digital world, are waiting for their new projects.</span>
             </p>
             <a href="#iletisim" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-full transition-colors shadow-lg shadow-blue-500/30">
-                Teklif Verin
+                <span class="lang-tr">Teklif Verin</span>
+                <span class="lang-en hidden">Make an Offer</span>
             </a>
         </div>
     </header>
@@ -32,75 +39,96 @@
 
         <section>
             <div class="mb-8">
-                <h2 class="text-2xl font-bold text-gray-900 border-l-4 border-yellow-500 pl-3">Kuyumculuk & Mücevherat</h2>
-                <p class="text-gray-500 mt-2 text-sm">Uluslararası ve yerel altın piyasası için en değerli anahtar kelime domainleri.</p>
+                <h2 class="text-2xl font-bold text-gray-900 border-l-4 border-yellow-500 pl-3">
+                    <span class="lang-tr">Kuyumculuk & Mücevherat</span>
+                    <span class="lang-en hidden">Jewelry & Precious Metals</span>
+                </h2>
+                <p class="text-gray-500 mt-2 text-sm">
+                    <span class="lang-tr">Uluslararası ve yerel altın piyasası için en değerli anahtar kelime domainleri.</span>
+                    <span class="lang-en hidden">The most valuable keyword domains for international and local gold markets.</span>
+                </p>
             </div>
             
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                
                 <div class="bg-white p-5 rounded-2xl shadow-sm border border-gray-200 hover:shadow-md hover:border-yellow-400 transition-all group flex flex-col justify-between">
                     <div>
-                        <span class="text-xs font-bold text-yellow-600 bg-yellow-50 px-2 py-1 rounded mb-3 inline-block">TR Piyasası</span>
+                        <span class="text-xs font-bold text-yellow-600 bg-yellow-50 px-2 py-1 rounded mb-3 inline-block"><span class="lang-tr">TR Piyasası</span><span class="lang-en hidden">TR Market</span></span>
                         <h3 class="text-xl font-bold text-gray-800 group-hover:text-yellow-600 transition-colors">10ayar.com</h3>
                     </div>
                     <a href="#iletisim" class="mt-4 text-sm text-gray-400 hover:text-blue-500 font-medium flex items-center justify-between">
-                        Teklif İlet <span>→</span>
+                        <span class="lang-tr">Teklif İlet</span><span class="lang-en hidden">Send Offer</span> <span>→</span>
                     </a>
                 </div>
                 
                 <div class="bg-white p-5 rounded-2xl shadow-sm border border-gray-200 hover:shadow-md hover:border-yellow-400 transition-all group flex flex-col justify-between">
                     <div>
-                        <span class="text-xs font-bold text-yellow-600 bg-yellow-50 px-2 py-1 rounded mb-3 inline-block">Aktif Proje</span>
+                        <span class="text-xs font-bold text-yellow-600 bg-yellow-50 px-2 py-1 rounded mb-3 inline-block"><span class="lang-tr">Aktif Proje</span><span class="lang-en hidden">Active Project</span></span>
                         <h3 class="text-xl font-bold text-gray-800 group-hover:text-yellow-600 transition-colors">10ayar.net</h3>
                     </div>
-                    <a href="#iletisim" class="mt-4 text-sm text-gray-400 hover:text-blue-500 font-medium flex items-center justify-between">Teklif İlet <span>→</span></a>
+                    <a href="#iletisim" class="mt-4 text-sm text-gray-400 hover:text-blue-500 font-medium flex items-center justify-between">
+                        <span class="lang-tr">Teklif İlet</span><span class="lang-en hidden">Send Offer</span> <span>→</span>
+                    </a>
                 </div>
 
                 <div class="bg-white p-5 rounded-2xl shadow-sm border border-gray-200 hover:shadow-md hover:border-yellow-400 transition-all group flex flex-col justify-between">
                     <div>
-                        <span class="text-xs font-bold text-yellow-600 bg-yellow-50 px-2 py-1 rounded mb-3 inline-block">Aktif Proje</span>
+                        <span class="text-xs font-bold text-yellow-600 bg-yellow-50 px-2 py-1 rounded mb-3 inline-block"><span class="lang-tr">Aktif Proje</span><span class="lang-en hidden">Active Project</span></span>
                         <h3 class="text-xl font-bold text-gray-800 group-hover:text-yellow-600 transition-colors">14ayar.net</h3>
                     </div>
-                    <a href="#iletisim" class="mt-4 text-sm text-gray-400 hover:text-blue-500 font-medium flex items-center justify-between">Teklif İlet <span>→</span></a>
+                    <a href="#iletisim" class="mt-4 text-sm text-gray-400 hover:text-blue-500 font-medium flex items-center justify-between">
+                        <span class="lang-tr">Teklif İlet</span><span class="lang-en hidden">Send Offer</span> <span>→</span>
+                    </a>
                 </div>
 
                 <div class="bg-white p-5 rounded-2xl shadow-sm border border-gray-200 hover:shadow-md hover:border-yellow-400 transition-all group flex flex-col justify-between">
                     <div>
-                        <span class="text-xs font-bold text-yellow-600 bg-yellow-50 px-2 py-1 rounded mb-3 inline-block">TR Piyasası</span>
+                        <span class="text-xs font-bold text-yellow-600 bg-yellow-50 px-2 py-1 rounded mb-3 inline-block"><span class="lang-tr">TR Piyasası</span><span class="lang-en hidden">TR Market</span></span>
                         <h3 class="text-xl font-bold text-gray-800 group-hover:text-yellow-600 transition-colors">18ayar.net</h3>
                     </div>
-                    <a href="#iletisim" class="mt-4 text-sm text-gray-400 hover:text-blue-500 font-medium flex items-center justify-between">Teklif İlet <span>→</span></a>
+                    <a href="#iletisim" class="mt-4 text-sm text-gray-400 hover:text-blue-500 font-medium flex items-center justify-between">
+                        <span class="lang-tr">Teklif İlet</span><span class="lang-en hidden">Send Offer</span> <span>→</span>
+                    </a>
                 </div>
 
                 <div class="bg-white p-5 rounded-2xl shadow-sm border border-gray-200 hover:shadow-md hover:border-yellow-400 transition-all group flex flex-col justify-between">
                     <div>
-                        <span class="text-xs font-bold text-yellow-600 bg-yellow-50 px-2 py-1 rounded mb-3 inline-block">Global (İngilizce)</span>
+                        <span class="text-xs font-bold text-yellow-600 bg-yellow-50 px-2 py-1 rounded mb-3 inline-block"><span class="lang-tr">Global (İngilizce)</span><span class="lang-en hidden">Global (English)</span></span>
                         <h3 class="text-xl font-bold text-gray-800 group-hover:text-yellow-600 transition-colors">18carat.net</h3>
                     </div>
-                    <a href="#iletisim" class="mt-4 text-sm text-gray-400 hover:text-blue-500 font-medium flex items-center justify-between">Teklif İlet <span>→</span></a>
+                    <a href="#iletisim" class="mt-4 text-sm text-gray-400 hover:text-blue-500 font-medium flex items-center justify-between">
+                        <span class="lang-tr">Teklif İlet</span><span class="lang-en hidden">Send Offer</span> <span>→</span>
+                    </a>
                 </div>
 
                 <div class="bg-white p-5 rounded-2xl shadow-sm border border-gray-200 hover:shadow-md hover:border-yellow-400 transition-all group flex flex-col justify-between">
                     <div>
-                        <span class="text-xs font-bold text-yellow-600 bg-yellow-50 px-2 py-1 rounded mb-3 inline-block">Global (İtalyanca)</span>
+                        <span class="text-xs font-bold text-yellow-600 bg-yellow-50 px-2 py-1 rounded mb-3 inline-block"><span class="lang-tr">Global (İtalyanca)</span><span class="lang-en hidden">Global (Italian)</span></span>
                         <h3 class="text-xl font-bold text-gray-800 group-hover:text-yellow-600 transition-colors">18carati.net</h3>
                     </div>
-                    <a href="#iletisim" class="mt-4 text-sm text-gray-400 hover:text-blue-500 font-medium flex items-center justify-between">Teklif İlet <span>→</span></a>
+                    <a href="#iletisim" class="mt-4 text-sm text-gray-400 hover:text-blue-500 font-medium flex items-center justify-between">
+                        <span class="lang-tr">Teklif İlet</span><span class="lang-en hidden">Send Offer</span> <span>→</span>
+                    </a>
                 </div>
 
                 <div class="bg-white p-5 rounded-2xl shadow-sm border border-gray-200 hover:shadow-md hover:border-yellow-400 transition-all group flex flex-col justify-between">
                     <div>
-                        <span class="text-xs font-bold text-yellow-600 bg-yellow-50 px-2 py-1 rounded mb-3 inline-block">Arap/Orta Doğu</span>
+                        <span class="text-xs font-bold text-yellow-600 bg-yellow-50 px-2 py-1 rounded mb-3 inline-block"><span class="lang-tr">Arap/Orta Doğu</span><span class="lang-en hidden">Arab/Middle East</span></span>
                         <h3 class="text-xl font-bold text-gray-800 group-hover:text-yellow-600 transition-colors">21ayar.com</h3>
                     </div>
-                    <a href="#iletisim" class="mt-4 text-sm text-gray-400 hover:text-blue-500 font-medium flex items-center justify-between">Teklif İlet <span>→</span></a>
+                    <a href="#iletisim" class="mt-4 text-sm text-gray-400 hover:text-blue-500 font-medium flex items-center justify-between">
+                        <span class="lang-tr">Teklif İlet</span><span class="lang-en hidden">Send Offer</span> <span>→</span>
+                    </a>
                 </div>
 
                 <div class="bg-white p-5 rounded-2xl shadow-sm border border-gray-200 hover:shadow-md hover:border-yellow-400 transition-all group flex flex-col justify-between">
                     <div>
-                        <span class="text-xs font-bold text-yellow-600 bg-yellow-50 px-2 py-1 rounded mb-3 inline-block">Aktif Proje</span>
+                        <span class="text-xs font-bold text-yellow-600 bg-yellow-50 px-2 py-1 rounded mb-3 inline-block"><span class="lang-tr">Aktif Proje</span><span class="lang-en hidden">Active Project</span></span>
                         <h3 class="text-xl font-bold text-gray-800 group-hover:text-yellow-600 transition-colors">21ayar.net</h3>
                     </div>
-                    <a href="#iletisim" class="mt-4 text-sm text-gray-400 hover:text-blue-500 font-medium flex items-center justify-between">Teklif İlet <span>→</span></a>
+                    <a href="#iletisim" class="mt-4 text-sm text-gray-400 hover:text-blue-500 font-medium flex items-center justify-between">
+                        <span class="lang-tr">Teklif İlet</span><span class="lang-en hidden">Send Offer</span> <span>→</span>
+                    </a>
                 </div>
 
                 <div class="bg-white p-5 rounded-2xl shadow-sm border border-gray-200 hover:shadow-md hover:border-yellow-400 transition-all group flex flex-col justify-between">
@@ -108,15 +136,19 @@
                         <span class="text-xs font-bold text-yellow-600 bg-yellow-50 px-2 py-1 rounded mb-3 inline-block">Global</span>
                         <h3 class="text-xl font-bold text-gray-800 group-hover:text-yellow-600 transition-colors">21carat.net</h3>
                     </div>
-                    <a href="#iletisim" class="mt-4 text-sm text-gray-400 hover:text-blue-500 font-medium flex items-center justify-between">Teklif İlet <span>→</span></a>
+                    <a href="#iletisim" class="mt-4 text-sm text-gray-400 hover:text-blue-500 font-medium flex items-center justify-between">
+                        <span class="lang-tr">Teklif İlet</span><span class="lang-en hidden">Send Offer</span> <span>→</span>
+                    </a>
                 </div>
 
                 <div class="bg-white p-5 rounded-2xl shadow-sm border border-gray-200 hover:shadow-md hover:border-yellow-400 transition-all group flex flex-col justify-between">
                     <div>
-                        <span class="text-xs font-bold text-yellow-600 bg-yellow-50 px-2 py-1 rounded mb-3 inline-block">Aktif Proje</span>
+                        <span class="text-xs font-bold text-yellow-600 bg-yellow-50 px-2 py-1 rounded mb-3 inline-block"><span class="lang-tr">Aktif Proje</span><span class="lang-en hidden">Active Project</span></span>
                         <h3 class="text-xl font-bold text-gray-800 group-hover:text-yellow-600 transition-colors">22ayar.net</h3>
                     </div>
-                    <a href="#iletisim" class="mt-4 text-sm text-gray-400 hover:text-blue-500 font-medium flex items-center justify-between">Teklif İlet <span>→</span></a>
+                    <a href="#iletisim" class="mt-4 text-sm text-gray-400 hover:text-blue-500 font-medium flex items-center justify-between">
+                        <span class="lang-tr">Teklif İlet</span><span class="lang-en hidden">Send Offer</span> <span>→</span>
+                    </a>
                 </div>
 
                 <div class="bg-white p-5 rounded-2xl shadow-sm border border-gray-200 hover:shadow-md hover:border-yellow-400 transition-all group flex flex-col justify-between">
@@ -124,77 +156,109 @@
                         <span class="text-xs font-bold text-yellow-600 bg-yellow-50 px-2 py-1 rounded mb-3 inline-block">Global</span>
                         <h3 class="text-xl font-bold text-gray-800 group-hover:text-yellow-600 transition-colors">22carat.net</h3>
                     </div>
-                    <a href="#iletisim" class="mt-4 text-sm text-gray-400 hover:text-blue-500 font-medium flex items-center justify-between">Teklif İlet <span>→</span></a>
+                    <a href="#iletisim" class="mt-4 text-sm text-gray-400 hover:text-blue-500 font-medium flex items-center justify-between">
+                        <span class="lang-tr">Teklif İlet</span><span class="lang-en hidden">Send Offer</span> <span>→</span>
+                    </a>
                 </div>
             </div>
         </section>
 
         <section>
             <div class="mb-8">
-                <h2 class="text-2xl font-bold text-gray-900 border-l-4 border-blue-500 pl-3">Yazılım, Barkod & Etiket</h2>
-                <p class="text-gray-500 mt-2 text-sm">B2B otomasyon, depo ve perakende yazılımları için mükemmel eşleşme sağlayan domainler.</p>
+                <h2 class="text-2xl font-bold text-gray-900 border-l-4 border-blue-500 pl-3">
+                    <span class="lang-tr">Yazılım, Barkod & Etiket</span>
+                    <span class="lang-en hidden">Software, Barcode & Label</span>
+                </h2>
+                <p class="text-gray-500 mt-2 text-sm">
+                    <span class="lang-tr">B2B otomasyon, depo ve perakende yazılımları için mükemmel eşleşme sağlayan domainler.</span>
+                    <span class="lang-en hidden">Perfect match domains for B2B automation, warehouse, and retail software solutions.</span>
+                </p>
             </div>
             
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
                 <div class="bg-white p-5 rounded-2xl shadow-sm border border-gray-200 hover:shadow-md hover:border-blue-400 transition-all group flex flex-col justify-between">
                     <h3 class="text-xl font-bold text-gray-800 group-hover:text-blue-600 transition-colors mt-2">hazirbarkod.com</h3>
-                    <a href="#iletisim" class="mt-4 text-sm text-gray-400 hover:text-blue-500 font-medium flex items-center justify-between">Teklif İlet <span>→</span></a>
+                    <a href="#iletisim" class="mt-4 text-sm text-gray-400 hover:text-blue-500 font-medium flex items-center justify-between">
+                        <span class="lang-tr">Teklif İlet</span><span class="lang-en hidden">Send Offer</span> <span>→</span>
+                    </a>
                 </div>
 
                 <div class="bg-white p-5 rounded-2xl shadow-sm border border-gray-200 hover:shadow-md hover:border-blue-400 transition-all group flex flex-col justify-between">
                     <h3 class="text-xl font-bold text-gray-800 group-hover:text-blue-600 transition-colors mt-2">hazirbarkod.net</h3>
-                    <a href="#iletisim" class="mt-4 text-sm text-gray-400 hover:text-blue-500 font-medium flex items-center justify-between">Teklif İlet <span>→</span></a>
+                    <a href="#iletisim" class="mt-4 text-sm text-gray-400 hover:text-blue-500 font-medium flex items-center justify-between">
+                        <span class="lang-tr">Teklif İlet</span><span class="lang-en hidden">Send Offer</span> <span>→</span>
+                    </a>
                 </div>
 
                 <div class="bg-white p-5 rounded-2xl shadow-sm border border-gray-200 hover:shadow-md hover:border-blue-400 transition-all group flex flex-col justify-between">
                     <h3 class="text-xl font-bold text-gray-800 group-hover:text-blue-600 transition-colors mt-2">haziretiket.com</h3>
-                    <a href="#iletisim" class="mt-4 text-sm text-gray-400 hover:text-blue-500 font-medium flex items-center justify-between">Teklif İlet <span>→</span></a>
+                    <a href="#iletisim" class="mt-4 text-sm text-gray-400 hover:text-blue-500 font-medium flex items-center justify-between">
+                        <span class="lang-tr">Teklif İlet</span><span class="lang-en hidden">Send Offer</span> <span>→</span>
+                    </a>
                 </div>
 
                 <div class="bg-white p-5 rounded-2xl shadow-sm border border-gray-200 hover:shadow-md hover:border-blue-400 transition-all group flex flex-col justify-between">
                     <h3 class="text-xl font-bold text-gray-800 group-hover:text-blue-600 transition-colors mt-2">haziretiket.net</h3>
-                    <a href="#iletisim" class="mt-4 text-sm text-gray-400 hover:text-blue-500 font-medium flex items-center justify-between">Teklif İlet <span>→</span></a>
+                    <a href="#iletisim" class="mt-4 text-sm text-gray-400 hover:text-blue-500 font-medium flex items-center justify-between">
+                        <span class="lang-tr">Teklif İlet</span><span class="lang-en hidden">Send Offer</span> <span>→</span>
+                    </a>
                 </div>
             </div>
         </section>
 
         <section>
             <div class="mb-8">
-                <h2 class="text-2xl font-bold text-gray-900 border-l-4 border-purple-500 pl-3">E-Ticaret & Kurumsal Marka</h2>
-                <p class="text-gray-500 mt-2 text-sm">Doğrudan tüketiciye ulaşacak (B2C), marka değeri yüksek isimler.</p>
+                <h2 class="text-2xl font-bold text-gray-900 border-l-4 border-purple-500 pl-3">
+                    <span class="lang-tr">E-Ticaret & Kurumsal Marka</span>
+                    <span class="lang-en hidden">E-Commerce & Corporate Brand</span>
+                </h2>
+                <p class="text-gray-500 mt-2 text-sm">
+                    <span class="lang-tr">Doğrudan tüketiciye ulaşacak (B2C), marka değeri yüksek isimler.</span>
+                    <span class="lang-en hidden">High brand value names for Direct-to-Consumer (B2C) businesses.</span>
+                </p>
             </div>
             
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
                 <div class="bg-white p-5 rounded-2xl shadow-sm border border-gray-200 hover:shadow-md hover:border-purple-400 transition-all group flex flex-col justify-between">
                     <h3 class="text-xl font-bold text-gray-800 group-hover:text-purple-600 transition-colors mt-2">mavicay.com</h3>
-                    <a href="#iletisim" class="mt-4 text-sm text-gray-400 hover:text-blue-500 font-medium flex items-center justify-between">Teklif İlet <span>→</span></a>
+                    <a href="#iletisim" class="mt-4 text-sm text-gray-400 hover:text-blue-500 font-medium flex items-center justify-between">
+                        <span class="lang-tr">Teklif İlet</span><span class="lang-en hidden">Send Offer</span> <span>→</span>
+                    </a>
                 </div>
 
                 <div class="bg-white p-5 rounded-2xl shadow-sm border border-gray-200 hover:shadow-md hover:border-purple-400 transition-all group flex flex-col justify-between">
                     <h3 class="text-xl font-bold text-gray-800 group-hover:text-purple-600 transition-colors mt-2">simaysilver.com</h3>
-                    <a href="#iletisim" class="mt-4 text-sm text-gray-400 hover:text-blue-500 font-medium flex items-center justify-between">Teklif İlet <span>→</span></a>
+                    <a href="#iletisim" class="mt-4 text-sm text-gray-400 hover:text-blue-500 font-medium flex items-center justify-between">
+                        <span class="lang-tr">Teklif İlet</span><span class="lang-en hidden">Send Offer</span> <span>→</span>
+                    </a>
                 </div>
 
                 <div class="bg-white p-5 rounded-2xl shadow-sm border border-gray-200 hover:shadow-md hover:border-purple-400 transition-all group flex flex-col justify-between">
                     <h3 class="text-xl font-bold text-gray-800 group-hover:text-purple-600 transition-colors mt-2">simaytasarim.com</h3>
-                    <a href="#iletisim" class="mt-4 text-sm text-gray-400 hover:text-blue-500 font-medium flex items-center justify-between">Teklif İlet <span>→</span></a>
+                    <a href="#iletisim" class="mt-4 text-sm text-gray-400 hover:text-blue-500 font-medium flex items-center justify-between">
+                        <span class="lang-tr">Teklif İlet</span><span class="lang-en hidden">Send Offer</span> <span>→</span>
+                    </a>
                 </div>
             </div>
         </section>
 
-        <section id="iletisim" class="bg-slate-900 rounded-3xl p-8 md:p-12 text-center text-white mt-12 shadow-2xl">
-            <h2 class="text-3xl font-bold mb-4">Bir Projeyle İlgileniyor Musunuz?</h2>
-            <p class="text-slate-400 mb-8 max-w-xl mx-auto">
-                Yukarıdaki domainlerin tescil hakları veya projeleriyle ilgili teklif vermek, devir süreçlerini konuşmak için bizimle doğrudan iletişime geçebilirsiniz.
+        <section id="iletisim" class="bg-slate-900 rounded-3xl p-8 md:p-12 text-center text-white mt-12 shadow-2xl relative overflow-hidden">
+            <h2 class="text-3xl font-bold mb-4 relative z-10">
+                <span class="lang-tr">Bir Projeyle İlgileniyor Musunuz?</span>
+                <span class="lang-en hidden">Interested in a Project?</span>
+            </h2>
+            <p class="text-slate-400 mb-8 max-w-xl mx-auto relative z-10">
+                <span class="lang-tr">Yukarıdaki domainlerin tescil hakları veya projeleriyle ilgili teklif vermek, devir süreçlerini konuşmak için bizimle doğrudan iletişime geçebilirsiniz.</span>
+                <span class="lang-en hidden">You can contact us directly to make an offer or discuss the transfer processes regarding the registration rights or active projects of the domains above.</span>
             </p>
             
-            <div class="flex flex-col md:flex-row justify-center items-center gap-4">
+            <div class="flex flex-col md:flex-row justify-center items-center gap-4 relative z-10">
                 <a href="mailto:dincer.ay@chooktemiz.com" class="bg-white text-slate-900 font-bold py-4 px-10 rounded-xl hover:bg-slate-100 transition-colors w-full md:w-auto">
-                    📧 E-Posta Gönder
+                    📧 <span class="lang-tr">E-Posta Gönder</span><span class="lang-en hidden">Send an E-Mail</span>
                 </a>
                 <a href="https://wa.me/905400024665" class="bg-green-500 text-white font-bold py-4 px-10 rounded-xl hover:bg-green-600 transition-colors w-full md:w-auto">
-    💬 WhatsApp'tan Yaz
-</a>
+                    💬 <span class="lang-tr">WhatsApp'tan Yaz</span><span class="lang-en hidden">Message via WhatsApp</span>
+                </a>
             </div>
         </section>
 
@@ -202,10 +266,51 @@
 
     <footer class="bg-white border-t border-gray-200 py-8 text-center text-sm text-gray-500 mt-auto">
         <div class="max-w-6xl mx-auto px-6">
-            <p>&copy; 2026 Dyncher Digital Assets. Tüm tescil hakları saklıdır.</p>
-            <p class="mt-1">Bu portföy sayfası <strong>CTY - Chook Temiz Yalova</strong> iştirakidir.</p>
+            <p>
+                &copy; 2026 Dyncher Digital Assets. 
+                <span class="lang-tr">Tüm tescil hakları saklıdır.</span>
+                <span class="lang-en hidden">All registration rights reserved.</span>
+            </p>
+            <p class="mt-1">
+                <span class="lang-tr">Bu portföy sayfası <strong>CTY - Chook Temiz Yalova</strong> iştirakidir.</span>
+                <span class="lang-en hidden">This portfolio page is an affiliate of <strong>CTY - Chook Temiz Yalova</strong>.</span>
+            </p>
         </div>
     </footer>
 
+    <script>
+        let currentLang = 'tr';
+
+        function toggleLanguage() {
+            // Dili tersine çevir
+            currentLang = (currentLang === 'tr') ? 'en' : 'tr';
+            
+            const btn = document.getElementById('langBtn');
+            const trElements = document.querySelectorAll('.lang-tr');
+            const enElements = document.querySelectorAll('.lang-en');
+
+            if (currentLang === 'en') {
+                // İngilizceye Geçiş
+                btn.innerHTML = '<span>🇹🇷</span> TR';
+                trElements.forEach(el => el.classList.add('hidden'));
+                enElements.forEach(el => el.classList.remove('hidden'));
+                
+                // SEO ve Sekme Bilgilerini Güncelle
+                document.documentElement.lang = "en";
+                document.getElementById('page-title').innerText = "Dyncher Digital Assets | Premium Domain Portfolio";
+                document.getElementById('page-desc').setAttribute("content", "Premium generic domain names with high SEO potential for jewelry, software, and e-commerce sectors.");
+            } else {
+                // Türkçeye Dönüş
+                btn.innerHTML = '<span>🇬🇧</span> EN';
+                enElements.forEach(el => el.classList.add('hidden'));
+                trElements.forEach(el => el.classList.remove('hidden'));
+                
+                // SEO ve Sekme Bilgilerini Güncelle
+                document.documentElement.lang = "tr";
+                document.getElementById('page-title').innerText = "Dyncher Digital Assets | Premium Domain Portföyü";
+                document.getElementById('page-desc').setAttribute("content", "Kuyumculuk, yazılım ve e-ticaret sektörlerine özel, yüksek SEO potansiyelli jenerik premium domain isimleri.");
+            }
+        }
+    </script>
 </body>
 </html>
